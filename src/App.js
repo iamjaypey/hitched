@@ -1,4 +1,5 @@
 import './App.css';
+import Timeline from './pages/Timeline/Timeline';
 
 function App() {
   return (
@@ -6,7 +7,7 @@ function App() {
       <div className="mystic goright"></div>
       <div className="mystic goleft"></div>
 
-      <h2>Just testing the social app</h2>
+      <Timeline />
     </div>
   );
 }

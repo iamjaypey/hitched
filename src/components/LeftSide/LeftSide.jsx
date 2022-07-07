@@ -2,7 +2,7 @@ import React from 'react'
 
 const LeftSide = () => {
   return (
-    <div>LeftSide</div>
+    <div className="col-md-3">LeftSide</div>
   )
 }
 
