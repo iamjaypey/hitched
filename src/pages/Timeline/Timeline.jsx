@@ -6,7 +6,7 @@ import './Timeline.css'
 
 const Timeline = () => {
   return (
-    <div className="row">
+    <div className="row timeline pt-4">
       {/* Left Side */}
       <LeftSide />
 
