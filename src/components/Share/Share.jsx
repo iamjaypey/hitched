@@ -37,7 +37,7 @@ const Share = () => {
           <div className="post__media__option">
             <UilPlayCircle />
             Video
-          </div>
+          </div> 
           <div className="post__media__option">
             <UilLocationPoint />
             Location
