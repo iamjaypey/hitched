@@ -12,7 +12,7 @@ const UserCard = () => {
       </div>
 
       <div className="card__names">
-        <span>Sunday Ishaya</span>
+        <span>Makanjuola Paul</span>
         <span>Software Developer</span>
       </div>   
 
