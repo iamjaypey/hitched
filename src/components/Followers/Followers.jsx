@@ -4,8 +4,8 @@ import followerImg from '../../img/profileImg.jpg'
 
 const Followers = () => {
   return (
-    <div className="followers">
-      <h3>Who's following you</h3>
+    <div className="followers mt-4">
+      <h4>Who's following you</h4>
       <div className="follower my-2">
         <div>
           <img src={followerImg} alt="" className="follower__img" />

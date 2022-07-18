@@ -11,7 +11,7 @@ const LeftSide = () => {
       <Search />
 
       {/* User Card */}
-      <UserCard />
+      {/* <UserCard /> */}
 
       {/* Followers */}
       <Followers />

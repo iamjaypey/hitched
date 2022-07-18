@@ -30,22 +30,23 @@ const Share = () => {
           <div 
             className="post__media__option"
             onClick={() => imageRef.current.click()}
+            style={{color: '#4cb256'}}
             >
             <UilScenery />
             Photo
           </div>
-          <div className="post__media__option">
+          <div className="post__media__option" style={{color: '#4a4eb7'}}>
             <UilPlayCircle />
             Video
           </div> 
-          <div className="post__media__option">
+          <div className="post__media__option" style={{color: '#ef5757'}}>
             <UilLocationPoint />
             Location
           </div>
-          <div className="post__media__option">
+          {/* <div className="post__media__option" style={{color: '#4cb256'}}>
             <UilSchedule />
             Schedule
-          </div>
+          </div> */}
 
           <button className="share__btn">Share</button>
           <div style={{display: 'none'}}>
