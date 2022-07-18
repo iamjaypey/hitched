@@ -65,3 +65,9 @@
 }
 
 
+@media (max-width: 480px) {
+  .post__media__option > span {
+    display: none;
+    background-color: rgb(173, 50, 50);
+  }
+}
